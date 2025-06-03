@@ -1,314 +1,89 @@
 {
   "config_utilisee": {
     "mask_persons": true,
-    "mask_orgs": false,
-    "mask_locations": false,
-    "mask_dates": false,
-    "mask_emails": false,
-    "mask_phones": false,
+    "mask_orgs": true,
+    "mask_locations": true,
+    "mask_dates": true,
+    "mask_emails": true,
+    "mask_phones": true,
     "replacement_char": "X",
     "preserve_length": true,
     "use_placeholders": false
   },
   "statistiques": {
-    "entites_trouvees": 50,
-    "correspondances_totales": 41
+    "entites_trouvees": 11,
+    "correspondances_totales": 11
   },
   "entites_par_type": {
-    "PERSONNE": [
+    "LIEU": [
       {
-        "original": "Gilles de Robien",
-        "remplacement": "PERSONNE_1",
-        "position": "706-722"
+        "original": "2 juin 2005",
+        "remplacement": "LIEU_1",
+        "position": "724-735"
       },
       {
-        "original": "Xavier Darcos",
-        "remplacement": "PERSONNE_2",
-        "position": "860-873"
+        "original": "18 mai",
+        "remplacement": "LIEU_2",
+        "position": "875-881"
       },
       {
-        "original": "Luc Chatel",
-        "remplacement": "PERSONNE_3",
-        "position": "1004-1014"
+        "original": "2 avril 2014",
+        "remplacement": "LIEU_3",
+        "position": "1179-1191"
       },
       {
-        "original": "Vincent Peillon",
-        "remplacement": "PERSONNE_4",
-        "position": "1148-1163"
+        "original": "* Benoît Hamon (2 avril 2014",
+        "remplacement": "LIEU_4",
+        "position": "1298-1326"
       },
       {
-        "original": "Benoît Hamon",
-        "remplacement": "PERSONNE_5",
-        "position": "1300-1312"
+        "original": "2017)",
+        "remplacement": "LIEU_5",
+        "position": "1465-1470"
       },
       {
-        "original": "Najat Vallaud-Belkacem",
-        "remplacement": "PERSONNE_6",
-        "position": "1419-1441"
+        "original": "* Gabriel Attal (20",
+        "remplacement": "LIEU_6",
+        "position": "1886-1905"
       },
       {
-        "original": "Jean-Michel Blanquer",
-        "remplacement": "PERSONNE_7",
-        "position": "1586-1606"
+        "original": "* Amélie Oudéa",
+        "remplacement": "LIEU_7",
+        "position": "2018-2032"
       },
       {
-        "original": "Pap Ndiaye",
-        "remplacement": "PERSONNE_8",
-        "position": "1760-1770"
+        "original": "* Anne Genetet (21",
+        "remplacement": "LIEU_8",
+        "position": "2343-2361"
       },
       {
-        "original": "Gabriel Attal",
-        "remplacement": "PERSONNE_9",
-        "position": "1888-1901"
-      },
-      {
-        "original": "Amélie Oudéa-Castéra",
-        "remplacement": "PERSONNE_10",
-        "position": "2020-2040"
-      },
-      {
-        "original": "Nicole Belloubet",
-        "remplacement": "PERSONNE_11",
-        "position": "2192-2208"
-      },
-      {
-        "original": "Anne Genetet",
-        "remplacement": "PERSONNE_12",
-        "position": "2345-2357"
-      },
-      {
-        "original": "Élisabeth Borne",
-        "remplacement": "PERSONNE_13",
-        "position": "2473-2488"
+        "original": "* Élisabeth Borne (23",
+        "remplacement": "LIEU_9",
+        "position": "2471-2492"
       },
       {
         "original": "Julie Benetti",
-        "remplacement": "PERSONNE_14",
+        "remplacement": "LIEU_10",
         "position": "3041-3054"
       },
       {
-        "original": "Julie Benetti",
-        "remplacement": "PERSONNE_14",
-        "position": "3135-3148"
-      },
-      {
-        "original": "Anne Bisagni-Faure",
-        "remplacement": "PERSONNE_15",
-        "position": "3198-3216"
-      },
-      {
-        "original": "Guillaume Gellé",
-        "remplacement": "PERSONNE_16",
-        "position": "3290-3305"
-      },
-      {
-        "original": "Darcos",
-        "remplacement": "PERSONNE_17",
-        "position": "3640-3646"
-      },
-      {
-        "original": "Xavier Darcos",
-        "remplacement": "PERSONNE_2",
-        "position": "3685-3698"
-      },
-      {
-        "original": "Vincent Peillon",
-        "remplacement": "PERSONNE_4",
-        "position": "3990-4005"
-      },
-      {
-        "original": "Najat Vallaud-Belkacem",
-        "remplacement": "PERSONNE_6",
-        "position": "4378-4400"
-      },
-      {
-        "original": "Jean-Michel Blanquer",
-        "remplacement": "PERSONNE_7",
-        "position": "4905-4925"
-      },
-      {
-        "original": "2020–2025",
-        "remplacement": "PERSONNE_18",
-        "position": "6282-6291"
-      },
-      {
-        "original": "Pap Ndiaye",
-        "remplacement": "PERSONNE_8",
-        "position": "6485-6495"
-      },
-      {
-        "original": "président de la République",
-        "remplacement": "PERSONNE_19",
-        "position": "7140-7166"
-      },
-      {
-        "original": "Julie Benetti",
-        "remplacement": "PERSONNE_14",
-        "position": "8775-8788"
-      },
-      {
-        "original": "Anne Bisagni-Faure",
-        "remplacement": "PERSONNE_15",
-        "position": "8810-8828"
-      },
-      {
-        "original": "Olivier Dugrip",
-        "remplacement": "PERSONNE_20",
-        "position": "8848-8862"
-      },
-      {
-        "original": "Mostafa Fourar",
-        "remplacement": "PERSONNE_21",
-        "position": "8889-8903"
-      },
-      {
-        "original": "Karine Desroses",
-        "remplacement": "PERSONNE_22",
-        "position": "8926-8941"
-      },
-      {
-        "original": "Charline Avenel",
-        "remplacement": "PERSONNE_23",
-        "position": "9005-9020"
-      },
-      {
-        "original": "Guillaume Gellé",
-        "remplacement": "PERSONNE_16",
-        "position": "9033-9048"
-      },
-      {
-        "original": "Michel Quéré",
-        "remplacement": "PERSONNE_24",
-        "position": "9076-9088"
-      },
-      {
-        "original": "Sophie Béjean",
-        "remplacement": "PERSONNE_25",
-        "position": "9105-9118"
-      },
-      {
-        "original": "Asma",
-        "remplacement": "PERSONNE_26",
-        "position": "9790-9794"
-      },
-      {
-        "original": "Nino\tSU\nMax\tWITTERSHEIM",
-        "remplacement": "PERSONNE_27",
-        "position": "9804-9827"
-      },
-      {
-        "original": "Mohamed",
-        "remplacement": "PERSONNE_28",
-        "position": "9828-9835"
-      },
-      {
-        "original": "Théodore\tTRACHSEL",
-        "remplacement": "PERSONNE_29",
-        "position": "9843-9860"
-      },
-      {
-        "original": "Valentin\tBoissy",
-        "remplacement": "PERSONNE_30",
-        "position": "9861-9876"
-      },
-      {
-        "original": "Benjamin\tMIEHAKANDA",
-        "remplacement": "PERSONNE_31",
-        "position": "9882-9901"
-      },
-      {
-        "original": "Charlie\tROUX",
-        "remplacement": "PERSONNE_32",
-        "position": "9902-9914"
-      },
-      {
-        "original": "Justin\tMONTEILHET\nMathilde\tROUDIER",
-        "remplacement": "PERSONNE_33",
-        "position": "9915-9949"
-      },
-      {
-        "original": "Mohamed Ali",
-        "remplacement": "PERSONNE_34",
-        "position": "10020-10031"
-      },
-      {
-        "original": "CAMILA\tMOHAMED",
-        "remplacement": "PERSONNE_35",
-        "position": "10053-10067"
-      },
-      {
-        "original": "Bertille\tPillon",
-        "remplacement": "PERSONNE_36",
-        "position": "10068-10083"
-      },
-      {
-        "original": "MANIMA\n",
-        "remplacement": "PERSONNE_37",
-        "position": "10149-10156"
-      },
-      {
-        "original": "Thomas\tSE",
-        "remplacement": "PERSONNE_38",
-        "position": "10156-10165"
-      },
-      {
-        "original": "Clara",
-        "remplacement": "PERSONNE_39",
-        "position": "10204-10209"
-      },
-      {
-        "original": "Eleana\tVeliasi",
-        "remplacement": "PERSONNE_40",
-        "position": "10241-10255"
-      },
-      {
-        "original": "Korotoum",
-        "remplacement": "PERSONNE_41",
-        "position": "10287-10295"
+        "original": "Julie Benetti (",
+        "remplacement": "LIEU_11",
+        "position": "3135-3150"
       }
     ]
   },
   "correspondances": {
-    "PERSONNE_gilles de robien": "PERSONNE_1",
-    "PERSONNE_xavier darcos": "PERSONNE_2",
-    "PERSONNE_luc chatel": "PERSONNE_3",
-    "PERSONNE_vincent peillon": "PERSONNE_4",
-    "PERSONNE_benoît hamon": "PERSONNE_5",
-    "PERSONNE_najat vallaud-belkacem": "PERSONNE_6",
-    "PERSONNE_jean-michel blanquer": "PERSONNE_7",
-    "PERSONNE_pap ndiaye": "PERSONNE_8",
-    "PERSONNE_gabriel attal": "PERSONNE_9",
-    "PERSONNE_amélie oudéa-castéra": "PERSONNE_10",
-    "PERSONNE_nicole belloubet": "PERSONNE_11",
-    "PERSONNE_anne genetet": "PERSONNE_12",
-    "PERSONNE_élisabeth borne": "PERSONNE_13",
-    "PERSONNE_julie benetti": "PERSONNE_14",
-    "PERSONNE_anne bisagni-faure": "PERSONNE_15",
-    "PERSONNE_guillaume gellé": "PERSONNE_16",
-    "PERSONNE_darcos": "PERSONNE_17",
-    "PERSONNE_2020–2025": "PERSONNE_18",
-    "PERSONNE_président de la république": "PERSONNE_19",
-    "PERSONNE_olivier dugrip": "PERSONNE_20",
-    "PERSONNE_mostafa fourar": "PERSONNE_21",
-    "PERSONNE_karine desroses": "PERSONNE_22",
-    "PERSONNE_charline avenel": "PERSONNE_23",
-    "PERSONNE_michel quéré": "PERSONNE_24",
-    "PERSONNE_sophie béjean": "PERSONNE_25",
-    "PERSONNE_asma": "PERSONNE_26",
-    "PERSONNE_nino\tsu\nmax\twittersheim": "PERSONNE_27",
-    "PERSONNE_mohamed": "PERSONNE_28",
-    "PERSONNE_théodore\ttrachsel": "PERSONNE_29",
-    "PERSONNE_valentin\tboissy": "PERSONNE_30",
-    "PERSONNE_benjamin\tmiehakanda": "PERSONNE_31",
-    "PERSONNE_charlie\troux": "PERSONNE_32",
-    "PERSONNE_justin\tmonteilhet\nmathilde\troudier": "PERSONNE_33",
-    "PERSONNE_mohamed ali": "PERSONNE_34",
-    "PERSONNE_camila\tmohamed": "PERSONNE_35",
-    "PERSONNE_bertille\tpillon": "PERSONNE_36",
-    "PERSONNE_manima\n": "PERSONNE_37",
-    "PERSONNE_thomas\tse": "PERSONNE_38",
-    "PERSONNE_clara": "PERSONNE_39",
-    "PERSONNE_eleana\tveliasi": "PERSONNE_40",
-    "PERSONNE_korotoum": "PERSONNE_41"
+    "LIEU_2 juin 2005": "LIEU_1",
+    "LIEU_18 mai": "LIEU_2",
+    "LIEU_2 avril 2014": "LIEU_3",
+    "LIEU_* benoît hamon (2 avril 2014": "LIEU_4",
+    "LIEU_2017)": "LIEU_5",
+    "LIEU_* gabriel attal (20": "LIEU_6",
+    "LIEU_* amélie oudéa": "LIEU_7",
+    "LIEU_* anne genetet (21": "LIEU_8",
+    "LIEU_* élisabeth borne (23": "LIEU_9",
+    "LIEU_julie benetti": "LIEU_10",
+    "LIEU_julie benetti (": "LIEU_11"
   }
 }

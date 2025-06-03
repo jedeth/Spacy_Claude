@@ -1,0 +1,102 @@
+[
+  {
+    "text": "\"Le témoignage de Thomas SE lors du procès a été crucial pour l'issue de l'affaire, apportant des éclaircissements indispensables aux jurés.\",",
+    "entities": [
+      [
+        18,
+        27,
+        "PERSON"
+      ]
+    ]
+  },
+  {
+    "text": "\"La contribution significative de Valentin Boissy-Pons au développement et à l'optimisation de notre nouvelle plateforme technologique a été reconnue comme essentielle par tous les membres du conseil.\",",
+    "entities": [
+      [
+        34,
+        54,
+        "PERSON"
+      ]
+    ]
+  },
+  {
+    "text": "\"Nous avons eu le privilège d'accueillir Asma RAMDHANI pour une série d'entretiens approfondis la semaine dernière, et son profil unique correspond parfaitement aux exigences du poste.\",",
+    "entities": [
+      [
+        41,
+        54,
+        "PERSON"
+      ]
+    ]
+  },
+  {
+    "text": "\"Nous avons eu le privilège d'accueillir Max WITTERSHEIM pour une série d'entretiens approfondis la semaine dernière, et son profil unique correspond parfaitement aux exigences du poste.\",",
+    "entities": [
+      [
+        41,
+        56,
+        "PERSON"
+      ]
+    ]
+  },
+  {
+    "text": "\"Si vous souhaitez obtenir une copie certifiée conforme des minutes de la dernière assemblée générale du conseil d'administration, SEBASTIEN NKUTU MANIMA est la personne désignée à contacter auprès du secrétariat.\",",
+    "entities": [
+      [
+        131,
+        153,
+        "PERSON"
+      ]
+    ]
+  },
+  {
+    "text": "\"Les compétences en gestion de projet de MYRIAM LIMAN ont permis de livrer le produit dans les temps impartis, malgré un cahier des charges particulièrement exigeant.\",",
+    "entities": [
+      [
+        41,
+        53,
+        "PERSON"
+      ]
+    ]
+  },
+  {
+    "text": "\"Malgré les défis techniques et les contraintes budgétaires, GASPARD STEFFENS a démontré une persévérance et un leadership remarquables, menant son équipe vers une réussite collective.\",",
+    "entities": [
+      [
+        61,
+        77,
+        "PERSON"
+      ]
+    ]
+  },
+  {
+    "text": "\"L'article scientifique récemment co-publié par ZLATKO STANOJEVIC dans la prestigieuse revue internationale 'Advanced Research Journal' a suscité un vif intérêt et de PERSONbreux débats au sein de la communauté scientifique.\",",
+    "entities": [
+      [
+        48,
+        65,
+        "PERSON"
+      ]
+    ]
+  },
+  {
+    "text": "\"L'article scientifique récemment co-publié par MYRIAM LIMAN dans la prestigieuse revue internationale 'Advanced Research Journal' a suscité un vif intérêt et de PERSONbreux débats au sein de la communauté scientifique.\",",
+    "entities": [
+      [
+        48,
+        60,
+        "PERSON"
+      ]
+    ]
+  },
+  {
+    "text": "\"La contribution significative de JULIA BISIMWA MUTAPAYI au développement et à l'optimisation de notre nouvelle plateforme technologique a été reconnue comme essentielle par tous les membres du conseil.\",",
+    "entities": [
+      [
+        34,
+        56,
+        "PERSON"
+      ]
+    ]
+  }
+]

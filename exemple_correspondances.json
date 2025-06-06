@@ -1,0 +1,89 @@
+{
+  "config_utilisee": {
+    "mask_persons": true,
+    "mask_orgs": true,
+    "mask_locations": true,
+    "mask_dates": true,
+    "mask_emails": true,
+    "mask_phones": true,
+    "replacement_char": "X",
+    "preserve_length": true,
+    "use_placeholders": false
+  },
+  "statistiques": {
+    "entites_trouvees": 11,
+    "correspondances_totales": 11
+  },
+  "entites_par_type": {
+    "LIEU": [
+      {
+        "original": "2 juin 2005",
+        "remplacement": "LIEU_1",
+        "position": "724-735"
+      },
+      {
+        "original": "18 mai",
+        "remplacement": "LIEU_2",
+        "position": "875-881"
+      },
+      {
+        "original": "2 avril 2014",
+        "remplacement": "LIEU_3",
+        "position": "1179-1191"
+      },
+      {
+        "original": "* Benoît Hamon (2 avril 2014",
+        "remplacement": "LIEU_4",
+        "position": "1298-1326"
+      },
+      {
+        "original": "2017)",
+        "remplacement": "LIEU_5",
+        "position": "1465-1470"
+      },
+      {
+        "original": "* Gabriel Attal (20",
+        "remplacement": "LIEU_6",
+        "position": "1886-1905"
+      },
+      {
+        "original": "* Amélie Oudéa",
+        "remplacement": "LIEU_7",
+        "position": "2018-2032"
+      },
+      {
+        "original": "* Anne Genetet (21",
+        "remplacement": "LIEU_8",
+        "position": "2343-2361"
+      },
+      {
+        "original": "* Élisabeth Borne (23",
+        "remplacement": "LIEU_9",
+        "position": "2471-2492"
+      },
+      {
+        "original": "Julie Benetti",
+        "remplacement": "LIEU_10",
+        "position": "3041-3054"
+      },
+      {
+        "original": "Julie Benetti (",
+        "remplacement": "LIEU_11",
+        "position": "3135-3150"
+      }
+    ]
+  },
+  "correspondances": {
+    "LIEU_2 juin 2005": "LIEU_1",
+    "LIEU_18 mai": "LIEU_2",
+    "LIEU_2 avril 2014": "LIEU_3",
+    "LIEU_* benoît hamon (2 avril 2014": "LIEU_4",
+    "LIEU_2017)": "LIEU_5",
+    "LIEU_* gabriel attal (20": "LIEU_6",
+    "LIEU_* amélie oudéa": "LIEU_7",
+    "LIEU_* anne genetet (21": "LIEU_8",
+    "LIEU_* élisabeth borne (23": "LIEU_9",
+    "LIEU_julie benetti": "LIEU_10",
+    "LIEU_julie benetti (": "LIEU_11"
+  }
+}

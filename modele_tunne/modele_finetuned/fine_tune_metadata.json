@@ -1,0 +1,13 @@
+{
+  "base_model": "fr_core_news_md",
+  "training_samples": 10,
+  "fine_tuned_date": "2025-06-03T15:11:06.801900",
+  "entities_trained": [
+    "LOC",
+    "MISC",
+    "ORG",
+    "PER",
+    "PERSON"
+  ],
+  "spacy_version": "3.8.7"
+}
